@@ -1,0 +1,31 @@
+{
+    // Verwendet IntelliSense zum Ermitteln möglicher Attribute.
+    // Zeigen Sie auf vorhandene Attribute, um die zugehörigen Beschreibungen anzuzeigen.
+    // Weitere Informationen finden Sie unter https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "gdb",
+            "request": "launch",
+            "name": "hello goliath",
+            "target": "/home/klaus/src/hello/hello",
+            "cwd": "${workspaceRoot}",
+            "ssh": {
+                "host": "goliath",
+                "cwd": "/home/klaus/src/hello",
+                "user": "klaus",
+                "useAgent": true
+            },
+            "valuesFormatting": "parseText",
+        },
+        {
+            "type": "gdb",
+            "request": "launch",
+            "name": "rgdb",
+            "target": "${workspaceRoot}/hello",
+            "cwd": "${workspaceRoot}",
+            "valuesFormatting": "parseText",
+            "gdbpath": "${workspaceRoot}/rgdb.pl"
+        },
+    ]
+}
