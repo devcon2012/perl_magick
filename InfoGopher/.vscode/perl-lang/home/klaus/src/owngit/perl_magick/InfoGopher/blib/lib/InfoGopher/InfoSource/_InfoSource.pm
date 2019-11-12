@@ -1,0 +1,1 @@
+[{"defintion":1,"kind":2,"line":0,"name":"InfoGopher::InfoSource::_InfoSource"},{"name":"Role","line":3,"kind":2,"containerName":"Moose"},{"kind":12,"name":"requires","line":5}]
