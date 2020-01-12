@@ -1,1 +1,0 @@
-[{"line":4,"name":"$betrag","containerName":null,"defintion":"my","kind":13},{"kind":13,"containerName":null,"name":"$betrag","line":5}]
